@@ -1,9 +1,9 @@
+import { Analytics } from "@vercel/analytics/next";
 import { Route, Routes } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import About from "./pages/About.jsx";
 import Home from "./pages/Home.jsx";
 import ProjectPage from "./pages/ProjectPage.jsx";
-
 export default function App() {
   return (
     <>
@@ -13,6 +13,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects/:slug" element={<ProjectPage />} />
       </Routes>
+      <Analytics />
     </>
   );
 }
