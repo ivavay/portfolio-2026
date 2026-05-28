@@ -69,13 +69,23 @@ export default function ProjectPage() {
         {project.slug === "running-planner" && (
           <p>
             This is a project I did for the capstone at AppWorks School in 2024
-            over the course of 4 weeks. It is a lightweight planner to setting
+            over the course of 4 weeks. It is a lightweight planner for setting
             weekly mileage goals towards preparing for your races. User can set
             how many kilometers they want to do each week and how much they want
             to run on a particular day, and Strava data will be brought into to
             sync with the calendar. User can also see a culmulative monthly
             recap for their progress at a glance, as well as their most recent
-            activities with the routes laid out.
+            activities with the routes laid out. You can check out a 6-min demo
+            of the project walkthrough
+            <a
+              href="https://youtu.be/EcveIdRHPcc?si=pqQmETVUKzbFuoRX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-link"
+            >
+              here
+            </a>
+            .
           </p>
         )}
         {project.slug === "taiwan-night-market" && (

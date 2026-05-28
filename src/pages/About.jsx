@@ -14,7 +14,7 @@ export default function About() {
           Ivy can be found tinkering with Codex most recently, along with
           traditional media like neocolor pastels, gouache, and embroidery
           threads during her time away from screens. Aside from making stuff,
-          she plays a lot tennis, rows, and trains with{" "}
+          she plays a lot of tennis, rows, and trains with{" "}
           <a
             href="https://www.instagram.com/montreal.athletes.club/"
             target="_blank"
