@@ -76,7 +76,7 @@ export default function ProjectPage() {
             sync with the calendar. User can also see a culmulative monthly
             recap for their progress at a glance, as well as their most recent
             activities with the routes laid out. You can check out a 6-min demo
-            of the project walkthrough
+            of the project walkthrough{" "}
             <a
               href="https://youtu.be/EcveIdRHPcc?si=pqQmETVUKzbFuoRX"
               target="_blank"
