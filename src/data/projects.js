@@ -49,6 +49,10 @@ export const projects = [
     images: ["/assets/boy-and-dog.JPG"],
     galleryImages: [
       {
+        src: "/assets/mom-and-dog.JPG",
+        alt: "Mom and dog"
+      },
+      {
         src: "/assets/boy-and-dog.JPG",
         alt: "Full illustration of a person with a backpack bending toward a dog"
       },
